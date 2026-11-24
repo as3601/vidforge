@@ -1,0 +1,53 @@
+{
+  "name": "vidforge",
+  "version": "1.0.0",
+  "description": "Free, browser-based, AI-powered video editor that runs entirely locally",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "video-editor",
+    "react",
+    "vite",
+    "webcodecs",
+    "ffmpeg",
+    "whisper",
+    "ai"
+  ],
+  "author": "Aditya Sharma",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@ffmpeg/ffmpeg": "^0.12.15",
+    "@ffmpeg/util": "^0.12.2",
+    "@huggingface/transformers": "^4.3.2",
+    "@mediapipe/tasks-vision": "^1.2.2",
+    "idb-keyval": "^6.3.0",
+    "immer": "^11.2.9",
+    "kokoro-js": "^1.2.1",
+    "lucide-react": "^1.70.0",
+    "mp4-muxer": "^5.2.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zustand": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^6.2.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.6"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/as3601/vidforge.git"
+  },
+  "engines": {
+    "node": ">=20.19"
+  }
+}
